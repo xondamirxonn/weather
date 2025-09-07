@@ -19,7 +19,7 @@ export const getTodayWeatherByCoords = (lat: string, lon: string) => {
 export const getTodayWeatherHourly = (lat: string, lon: string) => {
   return request({
     method: "GET",
-    url: `/weather/forecast?lat=${lat}&lon=${lon}&appid=${import.meta.env.VITE_WEATHER_API_KEY}&units=metric`
+    url: `weather/forecast?lat=${lat}&lon=${lon}&appid=${import.meta.env.VITE_WEATHER_API_KEY}&units=metric`
   });
 };
 
