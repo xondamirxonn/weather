@@ -1,5 +1,4 @@
 import request from "@/boot/axios";
-import { settings } from "@/boot/settings";
 
 const baseUrl = "/weather?q";
 
