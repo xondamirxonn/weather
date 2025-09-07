@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    },
+     {
+      "source": "/api/weather/:path*",
+      "destination": "https://api.openweathermap.org/data/2.5/:path*"
+    },
+    {
+      "source": "/api/open/:path*",
+      "destination": "https://api.open-meteo.com/v1/:path*"
+    },
+    {
+      "source": "/api/countries/:path*",
+      "destination": "https://restcountries.com/v3.1/:path*"
+    }
+  ]
+}
