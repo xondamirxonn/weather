@@ -1,4 +1,3 @@
-import "./App.css";
 import { ThemeProvider } from "./components/ui/theme-provider";
 import Index from "./router";
 
