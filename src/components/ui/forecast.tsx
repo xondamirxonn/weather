@@ -24,7 +24,7 @@ const Forecast = ({ data }: { data: any }) => {
               >
                 <div>{moment(item.dt_txt).format("HH:mm")}</div>
                 <img
-                  src={`http://openweathermap.org/img/wn/${item.weather?.[0].icon}.png`}
+                  src={`https://openweathermap.org/img/wn/${item.weather?.[0].icon}.png`}
                   alt={item.weather?.[0].description}
                   className="w-10 h-10"
                 />

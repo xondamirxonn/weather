@@ -25,7 +25,7 @@ const ForecastDaily = ({ data }: { data: any }) => {
               </div>
 
               <img
-                src={`http://openweathermap.org/img/wn/${item.weather?.[0].icon}@2x.png`}
+                src={`https://openweathermap.org/img/wn/${item.weather?.[0].icon}@2x.png`}
                 alt={item.weather?.[0].description}
                 className="w-16 h-16"
               />

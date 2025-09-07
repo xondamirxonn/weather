@@ -15,6 +15,10 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    },
+     {
+      "source": "/flags/:path*",
+      "destination": "https://flagcdn.com/32x24/:path*"
     }
   ],
   "headers": [
