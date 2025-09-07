@@ -84,7 +84,7 @@ export function CitySearch() {
                 className="flex items-center gap-2"
               >
                 <img
-                  src={`/flags/${opt.sys.country.toLowerCase()}.png`}
+                  src={`https://flagcdn.com/32x24/${opt.sys.country.toLowerCase()}.png`}
                   alt={opt.sys.country}
                   className="w-6 h-4 object-cover rounded-sm"
                 />
